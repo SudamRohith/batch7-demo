@@ -13,10 +13,14 @@ num2=s.nextInt();
 res=num1+num2;
 System.out.println("Result is "+res);
 
-
+if(res>0)
+	System.out.println("Result is positive value");
+else
+	System.out.println("Result is negative value");
 
 
 	}
 }
+
 
 
